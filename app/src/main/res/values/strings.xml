@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Checkpoint1ALRUTEN</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="textView">TextView</string>
+    <string name="textView3">TextView3</string>
+    <string name="textView4">TextView4</string>
+    <string name="textView5">TextView5</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apprenti.checkpoint1alruten.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:hint="Nom"
+        android:id="@+id/nom"
+        app:layout_constraintBottom_toTopOf="@+id/prenom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:hint="Prenom"
+        app:layout_constraintBottom_toTopOf="@+id/ecole"
+        app:layout_constraintTop_toBottomOf="@+id/nom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/ecole"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:hint="Ecole"
+        app:layout_constraintBottom_toTopOf="@+id/language"
+        app:layout_constraintTop_toBottomOf="@+id/prenom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/language"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:hint="Langage"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/ecole"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="ENVOYER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/language"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
